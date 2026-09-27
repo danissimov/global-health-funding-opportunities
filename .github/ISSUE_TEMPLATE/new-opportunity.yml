@@ -1,0 +1,47 @@
+name: New opportunity
+description: Suggest a grant, fellowship or programme for the list.
+title: "Add: "
+labels: ["new opportunity"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name of the opportunity
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official page
+      description: The funder's own page, not a news site or aggregator.
+    validations:
+      required: true
+  - type: checkboxes
+    id: countries
+    attributes:
+      label: Which countries can apply?
+      options:
+        - label: Dominican Republic
+        - label: Jamaica
+        - label: Armenia
+        - label: India
+        - label: Thailand
+        - label: Vietnam
+        - label: Philippines
+        - label: Uganda
+        - label: Zimbabwe
+        - label: Botswana
+  - type: input
+    id: amount
+    attributes:
+      label: Amount and duration
+      placeholder: "Up to US$20,000 for 1 year"
+  - type: input
+    id: deadline
+    attributes:
+      label: Next deadline
+      placeholder: "15 March 2027, or rolling"
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it a good fit for health workers doing research?

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this list, please cite it as below."
+title: "Awesome Global Health Funding"
+abstract: "A curated list of funding opportunities for health workers in ten partner countries of the Global Health Academy."
+authors:
+  - family-names: Anisimov
+    given-names: Daniil
+date-released: 2026-09-26
+version: 1.0.0
+license: CC0-1.0
+repository-code: "https://github.com/danissimov/awesome-global-health-funding"
+url: "https://danissimov.github.io/awesome-global-health-funding/"
+keywords:
+  - global health
+  - research funding
+  - grants
+  - fellowships
+  - low- and middle-income countries

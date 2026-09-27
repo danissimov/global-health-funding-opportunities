@@ -1,0 +1,22 @@
+name: Something is out of date
+description: A call closed, a deadline changed, a link is broken, or eligibility changed.
+title: "Update: "
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where did you see it?
+      description: A link to the funder's page, if you have one.
