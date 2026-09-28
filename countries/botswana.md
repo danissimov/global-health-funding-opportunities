@@ -1,6 +1,6 @@
 # Health research funding in Botswana
 
-[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/awesome-global-health-funding/)
+[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/)
 
 > **Upper-middle income** · Domestic funding: **Thin (a new national research council is coming)** · 94 opportunities · Checked 26 September 2026
 
@@ -28,6 +28,8 @@ Botswana is upper-middle income but still on the Wellcome and NIHR lists. It is 
 
 ## Next deadlines
 
+![Upcoming deadlines open to Botswana](../docs/deadlines-botswana.svg)
+
 | Date | Opportunity | Note |
 | --- | --- | --- |
 | 29 Sep 2026 | [Global Grand Challenges (topic-specific RFPs)](https://gcgh.grandchallenges.org/grant-opportunities) | Low-cost pathogen sequencing RFP |
@@ -38,8 +40,6 @@ Botswana is upper-middle income but still on the Wellcome and NIHR lists. It is 
 | 6 Oct 2026 | [Chevening Scholarships (UK one-year Master's)](https://www.chevening.org/scholarships/application-timeline/) | Closes |
 | 13 Oct 2026 | [Mandela Washington Fellowship for Young African Leaders](https://www.mandelawashingtonfellowship.org/2027-application-instructions/) | Closes |
 | 20 Oct 2026 | [Commonwealth Master's, PhD and Distance Learning Scholarships](https://cscuk.fcdo.gov.uk/about-us/scholarships-and-fellowships) | Master's (national nominator may close earlier) |
-| 28 Oct 2026 | [Wellcome Career Development Awards](https://wellcome.org/research-funding/schemes/wellcome-career-development-awards) | Last day for DR, Jamaica, Armenia applicants |
-| 28 Oct 2026 | [Wellcome Discovery Awards](https://wellcome.org/research-funding/schemes/wellcome-discovery-awards) | Last day for DR, Jamaica, Armenia applicants |
 | 29 Oct 2026 | [Horizon Europe Cluster 1 Health](https://horizoneuropencpportal.eu/store/overview-health-calls-2026-and-2027-horizon-europe) | 2027 health calls open (deadline 17 Feb 2027) |
 | 10 Nov 2026 | [Wellcome Early-Career Awards](https://wellcome.org/research-funding/schemes/wellcome-early-career-awards) | Submission (already-registered applicants only) |
 | 3 Dec 2026 | [Emerging Global Leader Award (K43)](https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx) | Closes |
@@ -203,4 +203,4 @@ Grouped by type. Open the link for the full call. The same entries, with more de
 
 ---
 
-Found a mistake or a new call for Botswana? [Open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose).
+Found a mistake or a new call for Botswana? [Open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).

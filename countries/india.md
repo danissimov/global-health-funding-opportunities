@@ -1,6 +1,6 @@
 # Health research funding in India
 
-[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/awesome-global-health-funding/)
+[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/)
 
 > **Lower-middle income** · Domestic funding: **Strong** · 97 opportunities · Checked 26 September 2026
 
@@ -27,6 +27,8 @@ India has deep domestic funding: ICMR, ANRF, DBT and BIRAC. Wellcome funds India
 5. **[Biotechnology Ignition Grant (BIG)](https://birac.nic.in/big.php)**. Seed money for medical-technology and AI prototypes. Opens 1 January 2027.
 
 ## Next deadlines
+
+![Upcoming deadlines open to India](../docs/deadlines-india.svg)
 
 | Date | Opportunity | Note |
 | --- | --- | --- |
@@ -246,4 +248,4 @@ Grouped by type. Open the link for the full call. The same entries, with more de
 
 ---
 
-Found a mistake or a new call for India? [Open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose).
+Found a mistake or a new call for India? [Open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).

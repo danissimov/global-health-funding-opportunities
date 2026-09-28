@@ -4,7 +4,7 @@ Thank you for helping. This list only works if it stays correct.
 
 ## The quickest way: open an issue
 
-You do not need to know GitHub. [Open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose) and choose:
+You do not need to know GitHub. [Open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose) and choose:
 
 - **New opportunity**, to suggest a grant, fellowship or programme.
 - **Something is out of date**, for a closed call, a new deadline, a broken link, or a change in eligibility.

@@ -1,6 +1,6 @@
 # Health research funding in Dominican Republic
 
-[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/awesome-global-health-funding/)
+[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/)
 
 > **Upper-middle income** · Domestic funding: **Thin** · 74 opportunities · Checked 26 September 2026
 
@@ -27,6 +27,8 @@ FONDOCYT is the main national fund. The PAHO/TDR route and Horizon Europe are th
 5. **[Emerging Global Leader Award (K43)](https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx)**. Your institution applies directly. Due 3 December 2026.
 
 ## Next deadlines
+
+![Upcoming deadlines open to Dominican Republic](../docs/deadlines-dominican-republic.svg)
 
 | Date | Opportunity | Note |
 | --- | --- | --- |
@@ -162,4 +164,4 @@ Grouped by type. Open the link for the full call. The same entries, with more de
 
 ---
 
-Found a mistake or a new call for Dominican Republic? [Open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose).
+Found a mistake or a new call for Dominican Republic? [Open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).

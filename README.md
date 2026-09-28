@@ -1,55 +1,34 @@
-# Awesome Global Health Funding [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Global Health Funding Opportunities
 
 > Where health workers in ten partner countries can find money for research, training and service projects.
 
-A curated list of 161 funding opportunities for clinicians, nurses, public-health staff and faculty in the Dominican Republic, Jamaica, Armenia, India, Thailand, Vietnam, the Philippines, Uganda, Zimbabwe and Botswana. It goes from ministries and national research councils to global foundations. Entries were checked against the funders' own pages in September 2026.
+161 funding opportunities for clinicians, nurses, public-health staff and faculty in the Dominican Republic, Jamaica, Armenia, India, Thailand, Vietnam, the Philippines, Uganda, Zimbabwe and Botswana, from ministries and national research councils to global foundations. Checked against the funders' own pages in September 2026.
 
-Free to use, copy and change (CC0). Built for the 5th Annual Global Health Conference, Southbury, Connecticut, September 2026, for the talk *Using AI for Research and Scholarship*.
+Free to use, copy and share (CC0). Made for the 5th Annual Global Health Conference, Southbury, Connecticut, September 2026.
 
-*Pick your country below, or open the [interactive atlas](https://danissimov.github.io/awesome-global-health-funding/) to filter by country, status and topic.*
+*Pick your country below, or open the [interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/) to filter by country, status and topic.*
 
 ## Contents
 
 - [Start with your country](#start-with-your-country)
-- [Before you apply](#before-you-apply)
+- [How to use this list](#how-to-use-this-list)
 - [What changed in 2026](#what-changed-in-2026)
 - [Start here](#start-here)
 - [Next deadlines](#next-deadlines)
 - [National and domestic funders](#national-and-domestic-funders)
-  - [Dominican Republic](#dominican-republic)
-  - [Jamaica](#jamaica)
-  - [Armenia](#armenia)
-  - [India](#india)
-  - [Thailand](#thailand)
-  - [Vietnam](#vietnam)
-  - [Philippines](#philippines)
-  - [Uganda](#uganda)
-  - [Zimbabwe](#zimbabwe)
-  - [Botswana](#botswana)
 - [Regional bodies and development banks](#regional-bodies-and-development-banks)
 - [Multilateral and global health initiatives](#multilateral-and-global-health-initiatives)
 - [Foreign governments and research councils](#foreign-governments-and-research-councils)
-  - [United States](#united-states)
-  - [United Kingdom](#united-kingdom)
-  - [Canada](#canada)
-  - [Europe](#europe)
-  - [Asia-Pacific](#asia-pacific)
 - [Foundations and charities](#foundations-and-charities)
 - [Corporate and tech, including AI](#corporate-and-tech-including-ai)
 - [Fellowships, training and small grants](#fellowships-training-and-small-grants)
 - [Humanitarian and implementation](#humanitarian-and-implementation)
-- [How to search](#how-to-search)
 - [Search tools](#search-tools)
-  - [Funder portals](#funder-portals)
-  - [Grant databases](#grant-databases)
-  - [Who got funded](#who-got-funded)
-  - [Who funds health in your country](#who-funds-health-in-your-country)
-  - [Newsletters and aggregators](#newsletters-and-aggregators)
-  - [AI tools](#ai-tools)
 - [Not direct routes](#not-direct-routes)
-- [How this list was checked](#how-this-list-was-checked)
 - [How to cite](#how-to-cite)
-- [Who made it](#who-made-it)
+- [Author](#author)
+- [Contributing](#contributing)
+- [Methodology and assumptions](#methodology-and-assumptions)
 
 ## Start with your country
 
@@ -68,12 +47,25 @@ Each page shows which funder lists your country is on, the five best first moves
 | **[Zimbabwe](countries/zimbabwe.md)**                     | Lower-middle income                     | Thin                                             |
 | **[Botswana](countries/botswana.md)**                     | Upper-middle income                     | Thin (a new national research council is coming) |
 
-## Before you apply
+## How to use this list
 
 > [!WARNING]
-> Funding changed fast in 2026. Statuses and dates are as of 26 September 2026. Always read the current call document on the funder's website before you start. "Status not confirmed" means we could not verify the current round, and amounts we could not confirm are left out. This list is information, not legal or financial advice.
+> Funding changed fast in 2026. Statuses and dates are as of 26 September 2026. Always read the current call on the funder's website before you start. This list is information, not legal or financial advice.
 
-**How to read an entry.** `best fit` marks opportunities that suit people doing research alongside clinical work. `AI` marks opportunities about AI or data. The status comes last, in italics.
+**Reading an entry.** Each line gives the scheme (linked to the funder's page), what it funds, the amount when known, which of the ten countries can apply, and the status in italics. `best fit` marks opportunities that suit people doing research alongside clinical work. `AI` marks opportunities about AI or data.
+
+**Finding your own opportunities.** The six steps behind this list:
+
+1. **Know which lists you are on.** Check your World Bank income group (it changes every 1 July), OECD aid status, Commonwealth membership, Horizon Europe association, EDCTP membership and Wellcome's country list. Most eligibility rules are written against these lists.
+2. **Map who already funds health at home.** Open the IATI d-portal or the OECD CRS for your country and filter to health. The funders you see there are your likeliest partners.
+3. **Find people funded for similar work.** Search NIH RePORTER, Dimensions, Wellcome's funded grants and 360Giving GrantNav by topic and country. Funded researchers become mentors, co-applicants and referees.
+4. **Subscribe to five feeds, not fifty.** The TDR newsletter, Fogarty funding news, The Global Health Network, one aggregator such as fundsforNGOs or Opportunity Desk, and your national council's call page.
+5. **Let AI search, then check every line.** A deep-research prompt builds a long list quickly. Then open each official page. Deadlines, amounts and country lists are exactly where AI models make mistakes.
+6. **Track it and register early.** Keep a tracker with the deadline, the eligibility check and your next action. US federal applications need SAM.gov, NCAGE and eRA Commons registration, which takes weeks.
+
+The full guide, with a copy-and-paste AI prompt, is in [the search guide](docs/how-to-search.md).
+
+The prompts from the talk, one for each research stage, are in [the prompt sheet](docs/prompts.md).
 
 ## What changed in 2026
 
@@ -91,38 +83,43 @@ Read these first. They decide which lists your country is on.
 
 ## Start here
 
-Open to all ten countries, free to try, and suited to people doing research alongside clinical work. Details are in the sections below.
+Open to all ten countries, free to try, and suited to people doing research alongside clinical work.
 
-| Opportunity                                                           | Why start here                                                          |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **SORT IT - Structured Operational Research and Training IniTiative** | Free and mentored. You finish with a published paper.                   |
-| **Rotary Foundation Global Grants and District Grants**               | US$30,000 to 400,000 for service projects, through a local Rotary club. |
-| **Anthropic AI for Science Program (free Claude API credits)**        | Free AI credits for research. Reviewed every month.                     |
-| **Rising Scholars (formerly AuthorAID, INASP)**                       | Free courses and mentors for writing papers and proposals.              |
-| **Emerging Global Leader Award (K43)**                                | Your institution applies directly to NIH. Due 3 December 2026.          |
+| Opportunity                                                                                                                                          | Why start here                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **[SORT IT - Structured Operational Research and Training IniTiative](https://tdr.who.int/activities/sort-it-operational-research-and-training)**    | Free and mentored. You finish with a published paper.                   |
+| **[Rotary Foundation Global Grants and District Grants](https://www.rotary.org/get-involved/our-programs/grants)**                                   | US$30,000 to 400,000 for service projects, through a local Rotary club. |
+| **[Anthropic AI for Science Program (free Claude API credits)](https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program)** | Free AI credits for research. Reviewed every month.                     |
+| **[Rising Scholars (formerly AuthorAID, INASP)](https://risingscholars.net/en/)**                                                                    | Free courses and mentors for writing papers and proposals.              |
+| **[Emerging Global Leader Award (K43)](https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx)**                                         | Your institution applies directly to NIH. Due 3 December 2026.          |
 
 ## Next deadlines
 
-From 26 September 2026 to early December 2026. Links are in the sections below.
+![Timeline of upcoming funding deadlines, from 29 September to 3 December 2026](docs/deadlines.svg)
 
-| Date        | Opportunity                                                    | Note                                            |
-| ----------- | -------------------------------------------------------------- | ----------------------------------------------- |
-| 29 Sep 2026 | Global Grand Challenges (topic-specific RFPs)                  | Low-cost pathogen sequencing RFP                |
-| 30 Sep 2026 | ICMR calls closing 30 Sep 2026                                 | ICMR intramural / VRDL calls                    |
-| 30 Sep 2026 | IAS CIPHER Research Grant Programme 2026/2027                  | Letter of intent                                |
-| 30 Sep 2026 | ACT-PREP PhD and Postdoctoral Fellowships 2026 (EDCTP3-funded) | Ugandan PhD/postdoc fellowships                 |
-| 1 Oct 2026  | Lions Clubs International Foundation                           | Approximate cycle date                          |
-| 1 Oct 2026  | Fogarty LAUNCH                                                 | Stanford & Arizona GHES consortium              |
-| 1 Oct 2026  | ISN Fellowship Program                                         | Closes                                          |
-| 2 Oct 2026  | Makerere University Research and Innovations Fund              | Makerere staff only                             |
-| 6 Oct 2026  | Chevening Scholarships (UK one-year Master's)                  | Closes                                          |
-| 13 Oct 2026 | Mandela Washington Fellowship for Young African Leaders        | Closes                                          |
-| 20 Oct 2026 | Commonwealth Master's, PhD and Distance Learning Scholarships  | Master's (national nominator may close earlier) |
-| 28 Oct 2026 | Wellcome Career Development Awards                             | Last day for DR, Jamaica, Armenia applicants    |
-| 28 Oct 2026 | Wellcome Discovery Awards                                      | Last day for DR, Jamaica, Armenia applicants    |
-| 29 Oct 2026 | Horizon Europe Cluster 1 Health                                | 2027 health calls open (deadline 17 Feb 2027)   |
-| 10 Nov 2026 | Wellcome Early-Career Awards                                   | Submission (already-registered applicants only) |
-| 3 Dec 2026  | Emerging Global Leader Award (K43)                             | Closes                                          |
+<details>
+<summary>The same deadlines as a table, with links</summary>
+
+| Date        | Opportunity                                                                                                                                                                            | Note                                            |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| 29 Sep 2026 | [Global Grand Challenges (topic-specific RFPs)](https://gcgh.grandchallenges.org/grant-opportunities)                                                                                  | Low-cost pathogen sequencing RFP                |
+| 30 Sep 2026 | [ICMR calls closing 30 Sep 2026](https://www.icmr.gov.in/post/call-for-proposals-under-icmr-intramural-research-program-2026-last-date-of-submission-september-30-2026-till-17-00-hrs) | ICMR intramural / VRDL calls                    |
+| 30 Sep 2026 | [IAS CIPHER Research Grant Programme 2026/2027](https://www.iasociety.org/grants/cipher-grant-programme-2026-2027)                                                                     | Letter of intent                                |
+| 30 Sep 2026 | [ACT-PREP PhD and Postdoctoral Fellowships 2026 (EDCTP3-funded)](https://act-prep.org/opportunities/)                                                                                  | Ugandan PhD/postdoc fellowships                 |
+| 1 Oct 2026  | [Lions Clubs International Foundation](https://www.lionsclubs.org/en/lcif-grants-toolkit)                                                                                              | Approximate cycle date                          |
+| 1 Oct 2026  | [Fogarty LAUNCH](https://www.fic.nih.gov/Programs/Pages/scholars-fellows-global-health.aspx)                                                                                           | Stanford & Arizona GHES consortium              |
+| 1 Oct 2026  | [ISN Fellowship Program](https://fellowship.theisn.org/)                                                                                                                               | Closes                                          |
+| 2 Oct 2026  | [Makerere University Research and Innovations Fund](https://rif.mak.ac.ug/rif8-call-for-applications-fy-2026-27/)                                                                      | Makerere staff only                             |
+| 6 Oct 2026  | [Chevening Scholarships (UK one-year Master's)](https://www.chevening.org/scholarships/application-timeline/)                                                                          | Closes                                          |
+| 13 Oct 2026 | [Mandela Washington Fellowship for Young African Leaders](https://www.mandelawashingtonfellowship.org/2027-application-instructions/)                                                  | Closes                                          |
+| 20 Oct 2026 | [Commonwealth Master's, PhD and Distance Learning Scholarships](https://cscuk.fcdo.gov.uk/about-us/scholarships-and-fellowships)                                                       | Master's (national nominator may close earlier) |
+| 28 Oct 2026 | [Wellcome Career Development Awards](https://wellcome.org/research-funding/schemes/wellcome-career-development-awards)                                                                 | Last day for DR, Jamaica, Armenia applicants    |
+| 28 Oct 2026 | [Wellcome Discovery Awards](https://wellcome.org/research-funding/schemes/wellcome-discovery-awards)                                                                                   | Last day for DR, Jamaica, Armenia applicants    |
+| 29 Oct 2026 | [Horizon Europe Cluster 1 Health](https://horizoneuropencpportal.eu/store/overview-health-calls-2026-and-2027-horizon-europe)                                                          | 2027 health calls open (deadline 17 Feb 2027)   |
+| 10 Nov 2026 | [Wellcome Early-Career Awards](https://wellcome.org/research-funding/schemes/wellcome-early-career-awards)                                                                             | Submission (already-registered applicants only) |
+| 3 Dec 2026  | [Emerging Global Leader Award (K43)](https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx)                                                                               | Closes                                          |
+
+</details>
 
 ## National and domestic funders
 
@@ -368,20 +365,9 @@ Money for research and innovation in crisis settings.
 - [Elrha Humanitarian Innovation Fund (HIF)](https://www.elrha.org/innovation) - `AI` Innovation challenges in humanitarian response (e.g., GBV tech, inclusion data, scaling, AI for humanitarians). All 10 countries. *Closed now; next round expected.*
 - [Elrha R2HC](https://www.elrha.org/funding-opportunities/r2hc-annual-funding-call) - Public-health research in humanitarian settings; annual calls, responsive crisis calls, uptake/impact small grants. All 10 countries. *Closed now; next round expected.*
 
-## How to search
-
-The six steps behind this list. Repeat them for your own topic. The full guide, with a copy-and-paste AI prompt, is in [the search guide](docs/how-to-search.md).
-
-| Step                                    | What to do                                                                                                                                                                                                                                |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Know which lists you are on          | Check your World Bank income group (it changes every 1 July), OECD aid status, Commonwealth membership, Horizon Europe association, EDCTP membership and Wellcome's country list. Most eligibility rules are written against these lists. |
-| 2. Map who already funds health at home | Open the IATI d-portal or the OECD CRS for your country and filter to health. The funders you see there are your likeliest partners.                                                                                                      |
-| 3. Find people funded for similar work  | Search NIH RePORTER, Dimensions, Wellcome's funded grants and 360Giving GrantNav by topic and country. Funded researchers become mentors, co-applicants and referees.                                                                     |
-| 4. Subscribe to five feeds, not fifty   | The TDR newsletter, Fogarty funding news, The Global Health Network, one aggregator such as fundsforNGOs or Opportunity Desk, and your national council's call page.                                                                      |
-| 5. Let AI search, then check every line | A deep-research prompt builds a long list quickly. Then open each official page. Deadlines, amounts and country lists are exactly where AI models make mistakes.                                                                          |
-| 6. Track it and register early          | Keep a tracker with the deadline, the eligibility check and your next action. US federal applications need SAM.gov, NCAGE and eRA Commons registration, which takes weeks.                                                                |
-
 ## Search tools
+
+Where to look for new calls. More tools, with tips, are in [the search guide](docs/how-to-search.md).
 
 ### Funder portals
 
@@ -426,15 +412,6 @@ The six steps behind this list. Repeat them for your own topic. The full guide, 
 - [Global Health Council](https://globalhealth.org/) - US global health policy and budget updates that signal where US funding is heading. *Free.*
 - [Opportunity aggregators (Opportunity Desk, Scholars4Dev, Global South Opportunities, MESA)](https://opportunitydesk.org/) - Fast discovery of scholarships, fellowships and conference grants for LMIC applicants. *Free.*
 
-### AI tools
-
-- [Instrumentl (incl. AI matching)](https://www.instrumentl.com/) - AI-matched grant prospects and deadline tracking, mainly US foundations and federal funders. *Paid.*
-- [AI deep-research modes (ChatGPT, Claude, Gemini, Perplexity)](https://www.perplexity.ai/) - Scanning the web for funders matching a project, country and career stage, and summarising eligibility. *Freemium.*
-- [Grantable](https://grantable.co/) - AI grant-writing workspace: drafting from your past documents, RFP checklists, funder prospecting. *Freemium.*
-- [Consensus](https://consensus.app/) - Quick evidence summaries from peer-reviewed papers to frame the research gap in a proposal. *Freemium.*
-- [Elicit](https://elicit.com/) - Semi-automated literature review and data extraction to build background and justification sections. *Freemium.*
-- [Google NotebookLM](https://notebooklm.google.com/) - Asking questions of long call documents, guidelines and FAQs you upload. *Free.*
-
 ## Not direct routes
 
 Large or famous funders that individual researchers cannot apply to, closed programmes, and organisations that do not give grants. Knowing these saves time.
@@ -462,26 +439,33 @@ Large or famous funders that individual researchers cannot apply to, closed prog
 - [Microsoft AI for Good Lab Open Call](https://www.microsoft.com/en-us/research/academic-program/ai-for-good-lab-open-call/) - Closed / not eligible.
 - [Other pharma/medtech corporate foundations](https://www.jnj.com/) - Invitation only (no open pathways identified).
 
-## How this list was checked
-
-Every entry links to the funder's own page, and the [data files](data/) list the pages used to check it. Five research passes covered national funders; multilaterals and regional bodies; foreign governments; foundations and companies; and fellowships and search tools. The key 2026 facts (income groups, Wellcome's country list, the US agreements) were checked a second time on the primary sources. Amounts and deadlines that could not be confirmed are left out or marked "not stated". This is a curation: 25 entries rated a poor fit for clinician-researchers stay in the data files but are left out of this list.
-
-Not yet checked: the Dominican Republic and Jamaica entries are thinner than the others, and about one entry in four has "Status not confirmed", because the web search budget ran out before every round could be verified.
-
-How it was built, and its limits, are in [the method notes](docs/method.md). If you find a mistake, please [open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose).
-
 ## How to cite
 
-> Anisimov D. Awesome Global Health Funding. 2026. <https://github.com/danissimov/awesome-global-health-funding>
+> Anisimov D. Global Health Funding Opportunities. 2026. <https://github.com/danissimov/global-health-funding-opportunities>
 
-## Who made it
+## Author
 
-**Daniil Anisimov**, speaker on AI for research and scholarship at the [5th Annual Global Health Conference](https://www.theglobalhealthacademy.org/global-health-academy/global-health-conferences/2026-home), Southbury, Connecticut, September 2026. AI engineer building research agents for drug development. Former physics and sensor researcher.
-
-Stuck on an application? Open an issue, or write to me. Want a version of this list for your own country or specialty? Fork it, or ask.
-
-Built with AI research assistants and checked by hand, as shown in the talk. From the same session: [Virtual Standardized Patient Simulator](https://github.com/igembitsky/virtual-standardized-patient) by Igor Gembitsky.
+**Daniil Anisimov**, AI engineer building research agents for drug development, and speaker on AI for research at the [5th Annual Global Health Conference](https://www.theglobalhealthacademy.org/global-health-academy/global-health-conferences/2026-home), September 2026. Questions, corrections, or a version for your country: [open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).
 
 ## Contributing
 
-Know a grant that should be here, or found one that has closed? [Tell us in the issues](https://github.com/danissimov/awesome-global-health-funding/issues); no GitHub skills needed. To add an entry yourself, read the [contribution guidelines](contributing.md) first. Everything here is released under [CC0](LICENSE).
+Know a grant that should be here, or found one that has closed? [Tell us in the issues](https://github.com/danissimov/global-health-funding-opportunities/issues); no GitHub skills needed. To add an entry yourself, read the [contribution guidelines](contributing.md). Everything here is released under [CC0](LICENSE).
+
+## Methodology and assumptions
+
+**Scope.** The ten partner countries on the Global Health Academy map. Anything a health worker there can lead or join as a named investigator counts: research grants, fellowships, training in kind, small grants, travel awards, free compute, and journal access or fee waivers.
+
+**Assumptions.**
+
+- **Who the list is for.** A clinician, nurse or faculty member doing research alongside clinical work, at a hospital or university with little or no grants office, with a small or first project. The `best fit` label is our judgement for that person, not a funder criterion.
+- **Eligible countries.** A country is listed when the funder's page names it, or names a group it belongs to. "All 10 countries" means we found no country restriction. A specific call can still narrow this.
+- **Country groups.** Income groups follow the World Bank FY2027 classification (1 July 2026). Wellcome eligibility follows its list for rounds opening 29 October 2026. UK and EU aid-funded schemes follow the OECD aid list. US agreement status follows the KFF tracker (data as of 11 September 2026).
+- **Status and dates.** As found on 26 September 2026. "Closed now; next round expected" means the funder runs the scheme regularly. "Status not confirmed" means the programme exists but we could not verify the current round.
+- **Amounts.** As stated by the funder, in its own currency, with an approximate US dollar figure where the source gave one. Amounts we could not confirm are left out.
+- **What is left out.** Invitation-only funders are listed under *Not direct routes*. 25 entries rated a poor fit stay in the [data files](data/) but not in this list.
+
+**How it was checked.** Five research passes covered national funders; multilaterals and regional bodies; foreign governments; foundations and companies; and fellowships and search tools. Every entry links to the funder's own page, and the data files list the pages used to check it. The key 2026 facts (income groups, Wellcome's country list, the US agreements) were checked a second time on the primary sources.
+
+**Limits.** The Dominican Republic and Jamaica entries are thinner than the others. About one entry in four has "Status not confirmed", because the web search budget ran out before every round could be verified. Funding policy is changing quickly, especially in the US and the UK, so a status can change the week after it was checked.
+
+More detail is in [the method notes](docs/method.md). If you find a mistake, please [open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).

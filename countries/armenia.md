@@ -1,6 +1,6 @@
 # Health research funding in Armenia
 
-[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/awesome-global-health-funding/)
+[Back to the full list](../README.md) · [Interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/)
 
 > **Upper-middle income** · Domestic funding: **Moderate** · 74 opportunities · Checked 26 September 2026
 
@@ -27,6 +27,8 @@ Armenia is a Horizon Europe associated country. It has the same standing as EU m
 5. **[Emerging Global Leader Award (K43)](https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx)**. Due 3 December 2026.
 
 ## Next deadlines
+
+![Upcoming deadlines open to Armenia](../docs/deadlines-armenia.svg)
 
 | Date | Opportunity | Note |
 | --- | --- | --- |
@@ -180,4 +182,4 @@ Grouped by type. Open the link for the full call. The same entries, with more de
 
 ---
 
-Found a mistake or a new call for Armenia? [Open an issue](https://github.com/danissimov/awesome-global-health-funding/issues/new/choose).
+Found a mistake or a new call for Armenia? [Open an issue](https://github.com/danissimov/global-health-funding-opportunities/issues/new/choose).
