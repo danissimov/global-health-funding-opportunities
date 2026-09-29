@@ -21,15 +21,15 @@
 
 | | Count |
 | --- | --- |
-| Opportunities in the data | 186 |
-| Shown in the list (good or best fit) | 161 |
-| Rated best fit | 50 |
-| Open now or open all year | 55 |
-| Status not confirmed | 50 |
-| Not direct routes (listed separately) | 22 |
+| Opportunities in the data | 250 |
+| Shown in the list (good or best fit) | 204 |
+| Rated best fit | 60 |
+| Open now or open all year | 96 |
+| Status not confirmed | 47 |
+| Not direct routes (listed separately) | 30 |
 | Search tools | 34 |
 
-By type: National and domestic funders: 47; Regional bodies and development banks: 11; Multilateral and global health initiatives: 11; Foreign governments and research councils: 35; Foundations and charities: 26; Corporate and tech, including AI: 15; Fellowships, training and small grants: 38; Humanitarian and implementation: 3.
+By type: National and domestic funders: 47; Regional bodies and development banks: 12; Multilateral and global health initiatives: 11; Foreign governments and research councils: 34; Foundations and charities: 50; Corporate and tech, including AI: 44; Fellowships, training and small grants: 49; Humanitarian and implementation: 3.
 
 ## Status labels
 

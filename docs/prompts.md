@@ -48,14 +48,14 @@ Then draft the consent form in [language] at a 6th-grade reading level.
 
 ## 4. Data analysis
 
-Tool: [Google Colab](https://colab.research.google.com)
+Tool: [Claude Code](https://claude.com/product/claude-code)
 
 ```text
-Here is a synthetic table with columns [age, sex, arm, outcome] and my pre-specified hypothesis: [H].
+Here is a de-identified table, data.csv, with columns [age, sex, arm, outcome], and my pre-specified hypothesis: [H].
 
-Write Python for Google Colab that runs [test], checks its assumptions, and prints the result with a 95% CI.
+Write and run a Python script that performs [test], checks its assumptions, and prints the result with a 95% CI. Save the script so I can rerun it.
 
-Explain the clinical meaning of the number the script prints. Do not invent a result.
+Explain the clinical meaning of the printed number. Do not invent a result.
 ```
 
 ## 5. Paper writing
@@ -72,7 +72,7 @@ Keep every number, citation and claim unchanged. List each change you made in a 
 
 ## Fundraising
 
-Tool: [Global Health Funding Opportunities](https://github.com/danissimov/global-health-funding-opportunities)
+Tool: [Global Health Funding Atlas](https://danissimov.github.io/global-health-funding-opportunities/)
 
 ```text
 You are a research-funding scout for a [role] in [country].

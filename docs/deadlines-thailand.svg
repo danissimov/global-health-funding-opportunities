@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="578" viewBox="0 0 960 578" font-family="Helvetica, Arial, sans-serif">
-<rect x="0" y="0" width="960" height="578" rx="14" fill="#FFFFFF" stroke="#E3E3E3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="710" viewBox="0 0 960 710" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="960" height="710" rx="14" fill="#FFFFFF" stroke="#E3E3E3"/>
 <text x="28" y="44" font-size="22" font-weight="700" fill="#111111">Upcoming deadlines open to Thailand</text>
-<text x="28" y="70" font-size="13" fill="#5F6368">9 dated deadlines from 27 Sep to early Dec 2026. Bar = days left from 27 September.</text>
+<text x="28" y="70" font-size="13" fill="#5F6368">12 dated deadlines from 29 Sep to early Dec 2026. Bar = days left from 29 September.</text>
 <rect x="28" y="84" width="12" height="12" rx="3" fill="#C62828"/><text x="46" y="95" font-size="12" fill="#5F6368">7 days or less</text>
 <rect x="178" y="84" width="12" height="12" rx="3" fill="#E08E0B"/><text x="196" y="95" font-size="12" fill="#5F6368">8–30 days</text>
 <rect x="328" y="84" width="12" height="12" rx="3" fill="#1E7F6E"/><text x="346" y="95" font-size="12" fill="#5F6368">more than 30 days</text>
@@ -10,67 +10,86 @@
 <rect x="16" y="292" width="928" height="44" rx="6" fill="#F6F6F6"/>
 <rect x="16" y="380" width="928" height="44" rx="6" fill="#F6F6F6"/>
 <rect x="16" y="468" width="928" height="44" rx="6" fill="#F6F6F6"/>
-<rect x="525.4" y="108" width="10.9" height="406" fill="#E9E1F7" fill-opacity="0.8"/>
-<text x="527.4" y="102" font-size="11" fill="#6A4FB3">Conference</text>
-<line x1="541.7" y1="108" x2="541.7" y2="514" stroke="#E6E6E6" stroke-dasharray="3 3"/>
-<text x="541.7" y="534" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Oct</text>
-<line x1="710.0" y1="108" x2="710.0" y2="514" stroke="#E6E6E6" stroke-dasharray="3 3"/>
-<text x="710.0" y="534" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Nov</text>
-<line x1="872.9" y1="108" x2="872.9" y2="514" stroke="#E6E6E6" stroke-dasharray="3 3"/>
-<text x="872.9" y="534" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Dec</text>
+<rect x="16" y="556" width="928" height="44" rx="6" fill="#F6F6F6"/>
+<rect x="514.4" y="108" width="11.2" height="538" fill="#E9E1F7" fill-opacity="0.8"/>
+<text x="516.4" y="102" font-size="11" fill="#6A4FB3">Conference</text>
+<line x1="531.2" y1="108" x2="531.2" y2="646" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+<text x="531.2" y="666" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Oct</text>
+<line x1="704.4" y1="108" x2="704.4" y2="646" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+<text x="704.4" y="666" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Nov</text>
+<line x1="872.1" y1="108" x2="872.1" y2="646" stroke="#E6E6E6" stroke-dasharray="3 3"/>
+<text x="872.1" y="666" font-size="12" fill="#8A8A8A" text-anchor="middle">1 Dec</text>
 <rect x="28" y="124" width="70" height="28" rx="6" fill="#C62828"/>
 <text x="63" y="143" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">29 Sep</text>
-<a href="https://gcgh.grandchallenges.org/grant-opportunities" target="_blank"><text x="112" y="136" font-size="14" font-weight="700" fill="#111111">Global Grand Challenges (topic-specific RFPs)</text></a>
+<a href="https://gcgh.grandchallenges.org/grant-opportunities" target="_blank"><text x="112" y="136" font-size="14" font-weight="700" fill="#111111">Gates Foundation Global Grand Challenges – open R…</text></a>
 <text x="112" y="153" font-size="12" fill="#5F6368">Low-cost pathogen sequencing RFP</text>
-<rect x="520" y="130" width="10.9" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
-<text x="538.9" y="142" font-size="12" font-weight="700" fill="#C62828">2 days</text>
+<rect x="520" y="130" width="4.0" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="528.0" y="142" font-size="12" font-weight="700" fill="#C62828">0 days</text>
 <rect x="28" y="168" width="70" height="28" rx="6" fill="#C62828"/>
 <text x="63" y="187" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">30 Sep</text>
 <a href="https://www.iasociety.org/grants/cipher-grant-programme-2026-2027" target="_blank"><text x="112" y="180" font-size="14" font-weight="700" fill="#111111">IAS CIPHER Research Grant Programme 2026/2027</text></a>
 <text x="112" y="197" font-size="12" fill="#5F6368">Letter of intent</text>
-<rect x="520" y="174" width="16.3" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
-<text x="544.3" y="186" font-size="12" font-weight="700" fill="#C62828">3 days</text>
+<rect x="520" y="174" width="5.6" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="533.6" y="186" font-size="12" font-weight="700" fill="#C62828">tomorrow</text>
 <rect x="28" y="212" width="70" height="28" rx="6" fill="#C62828"/>
 <text x="63" y="231" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1 Oct</text>
 <a href="https://www.lionsclubs.org/en/lcif-grants-toolkit" target="_blank"><text x="112" y="224" font-size="14" font-weight="700" fill="#111111">Lions Clubs International Foundation</text></a>
 <text x="112" y="241" font-size="12" fill="#5F6368">Approximate cycle date</text>
-<rect x="520" y="218" width="21.7" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
-<text x="549.7" y="230" font-size="12" font-weight="700" fill="#C62828">4 days</text>
+<rect x="520" y="218" width="11.2" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="539.2" y="230" font-size="12" font-weight="700" fill="#C62828">2 days</text>
 <rect x="28" y="256" width="70" height="28" rx="6" fill="#C62828"/>
 <text x="63" y="275" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1 Oct</text>
 <a href="https://www.fic.nih.gov/Programs/Pages/scholars-fellows-global-health.aspx" target="_blank"><text x="112" y="268" font-size="14" font-weight="700" fill="#111111">Fogarty LAUNCH</text></a>
 <text x="112" y="285" font-size="12" fill="#5F6368">Stanford &amp; Arizona GHES consortium</text>
-<rect x="520" y="262" width="21.7" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
-<text x="549.7" y="274" font-size="12" font-weight="700" fill="#C62828">4 days</text>
+<rect x="520" y="262" width="11.2" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="539.2" y="274" font-size="12" font-weight="700" fill="#C62828">2 days</text>
 <rect x="28" y="300" width="70" height="28" rx="6" fill="#C62828"/>
 <text x="63" y="319" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1 Oct</text>
 <a href="https://fellowship.theisn.org/" target="_blank"><text x="112" y="312" font-size="14" font-weight="700" fill="#111111">ISN Fellowship Program</text></a>
 <text x="112" y="329" font-size="12" fill="#5F6368">International Society of Nephrology</text>
-<rect x="520" y="306" width="21.7" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
-<text x="549.7" y="318" font-size="12" font-weight="700" fill="#C62828">4 days</text>
-<rect x="28" y="344" width="70" height="28" rx="6" fill="#E08E0B"/>
-<text x="63" y="363" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">6 Oct</text>
-<a href="https://www.chevening.org/scholarships/application-timeline/" target="_blank"><text x="112" y="356" font-size="14" font-weight="700" fill="#111111">Chevening Scholarships (UK one-year Master&#x27;s)</text></a>
-<text x="112" y="373" font-size="12" fill="#5F6368">UK Foreign, Commonwealth &amp; Development Office (FCDO)</text>
-<rect x="520" y="350" width="48.9" height="14" rx="7" fill="#E08E0B" fill-opacity="0.85"/>
-<text x="576.9" y="362" font-size="12" font-weight="700" fill="#E08E0B">9 days</text>
-<rect x="28" y="388" width="70" height="28" rx="6" fill="#1E7F6E"/>
-<text x="63" y="407" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">29 Oct</text>
-<a href="https://horizoneuropencpportal.eu/store/overview-health-calls-2026-and-2027-horizon-europe" target="_blank"><text x="112" y="400" font-size="14" font-weight="700" fill="#111111">Horizon Europe Cluster 1 Health</text></a>
-<text x="112" y="417" font-size="12" fill="#5F6368">2027 health calls open (deadline 17 Feb 2027)</text>
-<rect x="520" y="394" width="173.7" height="14" rx="7" fill="#1E7F6E" fill-opacity="0.85"/>
-<text x="701.7" y="406" font-size="12" font-weight="700" fill="#1E7F6E">32 days</text>
-<rect x="28" y="432" width="70" height="28" rx="6" fill="#1E7F6E"/>
-<text x="63" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">10 Nov</text>
-<a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards" target="_blank"><text x="112" y="444" font-size="14" font-weight="700" fill="#111111">Wellcome Early-Career Awards</text></a>
-<text x="112" y="461" font-size="12" fill="#5F6368">Submission (already-registered applicants only)</text>
-<rect x="520" y="438" width="238.9" height="14" rx="7" fill="#1E7F6E" fill-opacity="0.85"/>
-<text x="766.9" y="450" font-size="12" font-weight="700" fill="#1E7F6E">44 days</text>
-<rect x="28" y="476" width="70" height="28" rx="6" fill="#1E7F6E"/>
-<text x="63" y="495" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3 Dec</text>
-<a href="https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx" target="_blank"><text x="112" y="488" font-size="14" font-weight="700" fill="#111111">Emerging Global Leader Award (K43)</text></a>
-<text x="112" y="505" font-size="12" fill="#5F6368">US National Institutes of Health — Fogarty International…</text>
-<rect x="520" y="482" width="363.7" height="14" rx="7" fill="#1E7F6E" fill-opacity="0.85"/>
-<text x="891.7" y="494" font-size="12" font-weight="700" fill="#1E7F6E">67 days</text>
-<text x="28" y="560" font-size="11" fill="#8A8A8A">Checked 26 September 2026. Always confirm the date on the funder&#8217;s page. Source: github.com/danissimov/global-health-funding-opportunities</text>
+<rect x="520" y="306" width="11.2" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="539.2" y="318" font-size="12" font-weight="700" fill="#C62828">2 days</text>
+<rect x="28" y="344" width="70" height="28" rx="6" fill="#C62828"/>
+<text x="63" y="363" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2 Oct</text>
+<a href="https://coefficientgiving.org/funds/global-health-wellbeing-opportunities/request-for-proposals-launchpad-funds/" target="_blank"><text x="112" y="356" font-size="14" font-weight="700" fill="#111111">Request for Proposals: Launchpad Funds (Global He…</text></a>
+<text x="112" y="373" font-size="12" fill="#5F6368">Expressions of interest due</text>
+<rect x="520" y="350" width="16.8" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="544.8" y="362" font-size="12" font-weight="700" fill="#C62828">3 days</text>
+<rect x="28" y="388" width="70" height="28" rx="6" fill="#C62828"/>
+<text x="63" y="407" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">5 Oct</text>
+<a href="https://schmidtaiinsciencepostdocs.ucsd.edu/" target="_blank"><text x="112" y="400" font-size="14" font-weight="700" fill="#111111">Eric and Wendy Schmidt AI in Science Postdoctoral…</text></a>
+<text x="112" y="417" font-size="12" fill="#5F6368">First host deadline (UCSD); Oxford 16 Oct</text>
+<rect x="520" y="394" width="33.5" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="561.5" y="406" font-size="12" font-weight="700" fill="#C62828">6 days</text>
+<rect x="28" y="432" width="70" height="28" rx="6" fill="#C62828"/>
+<text x="63" y="451" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">6 Oct</text>
+<a href="https://www.chevening.org/scholarships/application-timeline/" target="_blank"><text x="112" y="444" font-size="14" font-weight="700" fill="#111111">Chevening Scholarships (UK one-year Master&#x27;s)</text></a>
+<text x="112" y="461" font-size="12" fill="#5F6368">UK Foreign, Commonwealth &amp; Development Office (FCDO)</text>
+<rect x="520" y="438" width="39.1" height="14" rx="7" fill="#C62828" fill-opacity="0.85"/>
+<text x="567.1" y="450" font-size="12" font-weight="700" fill="#C62828">7 days</text>
+<rect x="28" y="476" width="70" height="28" rx="6" fill="#E08E0B"/>
+<text x="63" y="495" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">16 Oct</text>
+<a href="https://astnet.asean.org/astif/" target="_blank"><text x="112" y="488" font-size="14" font-weight="700" fill="#111111">ASTIF Call 2026 – ASEAN Grand Challenge: AI-Enabl…</text></a>
+<text x="112" y="505" font-size="12" fill="#5F6368">Thailand, Vietnam, Philippines only</text>
+<rect x="520" y="482" width="95.0" height="14" rx="7" fill="#E08E0B" fill-opacity="0.85"/>
+<text x="623.0" y="494" font-size="12" font-weight="700" fill="#E08E0B">17 days</text>
+<rect x="28" y="520" width="70" height="28" rx="6" fill="#E08E0B"/>
+<text x="63" y="539" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">28 Oct</text>
+<a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards" target="_blank"><text x="112" y="532" font-size="14" font-weight="700" fill="#111111">Wellcome Early-Career Awards</text></a>
+<text x="112" y="549" font-size="12" fill="#5F6368">Last day for DR, Jamaica, Armenia applicants</text>
+<rect x="520" y="526" width="162.1" height="14" rx="7" fill="#E08E0B" fill-opacity="0.85"/>
+<text x="690.1" y="538" font-size="12" font-weight="700" fill="#E08E0B">29 days</text>
+<rect x="28" y="564" width="70" height="28" rx="6" fill="#E08E0B"/>
+<text x="63" y="583" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">29 Oct</text>
+<a href="https://horizoneuropencpportal.eu/store/overview-health-calls-2026-and-2027-horizon-europe" target="_blank"><text x="112" y="576" font-size="14" font-weight="700" fill="#111111">Horizon Europe Cluster 1 Health</text></a>
+<text x="112" y="593" font-size="12" fill="#5F6368">2027 health calls open (deadline 17 Feb 2027)</text>
+<rect x="520" y="570" width="167.6" height="14" rx="7" fill="#E08E0B" fill-opacity="0.85"/>
+<text x="695.6" y="582" font-size="12" font-weight="700" fill="#E08E0B">30 days</text>
+<rect x="28" y="608" width="70" height="28" rx="6" fill="#1E7F6E"/>
+<text x="63" y="627" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3 Dec</text>
+<a href="https://www.fic.nih.gov/Programs/Pages/emerging-global-leader.aspx" target="_blank"><text x="112" y="620" font-size="14" font-weight="700" fill="#111111">Emerging Global Leader Award (K43)</text></a>
+<text x="112" y="637" font-size="12" fill="#5F6368">US National Institutes of Health — Fogarty International…</text>
+<rect x="520" y="614" width="363.2" height="14" rx="7" fill="#1E7F6E" fill-opacity="0.85"/>
+<text x="891.2" y="626" font-size="12" font-weight="700" fill="#1E7F6E">65 days</text>
+<text x="28" y="692" font-size="11" fill="#8A8A8A">Checked 26 September 2026. Always confirm the date on the funder&#8217;s page. Source: github.com/danissimov/global-health-funding-opportunities</text>
 </svg>
