@@ -77,12 +77,17 @@ Tool: [Global Health Funding Atlas](https://danissimov.github.io/global-health-f
 ```text
 You are a research-funding scout for a [role] in [country].
 
+Start from this fact-checked list: https://github.com/danissimov/global-health-funding-opportunities
+Read countries/[country].md first, then check details in data/funding_opportunities.csv.
+
 Project: [one sentence]. Budget: [range].
 
-Find open or expected grants, fellowships and free compute I could lead or join. For each: official URL, amount, eligibility for my country’s World Bank income group, next deadline.
+Shortlist open or expected grants, fellowships and free compute I could lead or join, then search beyond the list. For each: official URL, amount, eligibility for my country’s World Bank income group, next deadline.
 
 Write “not verified” instead of guessing.
 ```
+
+The full version, with a country picker, is Prompt 1 in the [interactive atlas](https://danissimov.github.io/global-health-funding-opportunities/#prompt).
 
 ## Ethical AI use
 

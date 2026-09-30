@@ -56,9 +56,43 @@ header.top .lede{max-width:62ch;margin:14px 0 0;color:var(--ink-2);font-size:16p
 .stats div{background:var(--surface);padding:12px 14px}
 .stats b{display:block;font-family:var(--display);font-size:26px;line-height:1.1}
 .stats span{font-size:12.5px;color:var(--ink-2)}
-nav.jump{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:22px;font-size:13.5px}
-nav.jump a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
-nav.jump a:hover{color:var(--accent);border-color:var(--accent)}
+/* tabs */
+nav.tabs{display:flex;gap:4px;margin-top:26px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{appearance:none;font:inherit;font-size:14.5px;font-weight:600;color:var(--ink-2);background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px 9px;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;margin-bottom:-1px}
+nav.tabs button:hover{color:var(--ink)}
+nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+nav.tabs .tn{font-family:var(--mono);font-size:11.5px;font-weight:500;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;background:var(--surface-2);color:var(--ink-3)}
+nav.tabs button[aria-selected="true"] .tn{background:var(--accent);color:var(--accent-ink)}
+.panel{padding-top:8px}
+.panel>section.first,.panel>.funnel{margin-top:24px}
+.funnel{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:6px;counter-reset:f}
+.funnel li{counter-increment:f;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 40px;font-size:13px;line-height:1.35}
+.funnel li::before{content:counter(f);position:absolute;left:11px;top:10px;width:20px;height:20px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:11.5px;display:grid;place-items:center}
+.funnel b{display:block;font-size:13.5px}
+.funnel span{color:var(--ink-2)}
+.shifts-box{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.shifts-box summary{list-style:none;cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.shifts-box summary::-webkit-details-marker{display:none}
+.shifts-box .chev{color:var(--ink-3);transition:transform .15s}
+.shifts-box[open] .chev{transform:rotate(180deg)}
+.shifts-box .shifts{padding:0 12px 12px}
+.shifts-box .shift{background:var(--surface-2);border-color:transparent}
+.files td:first-child{white-space:nowrap}
+.files code{font-family:var(--mono);font-size:12.5px}
+.steps.compact{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.prompt-head label{display:inline-flex;align-items:center;gap:8px;color:var(--ink-2)}
+.prompt-head select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--ink)}
+.principles{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.principles div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.principles b{display:block;margin-bottom:3px}
+.principles p{margin:0;font-size:13.5px;color:var(--ink-2)}
+.card-proj{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:16px 20px;max-width:760px}
+.card-proj p{margin:8px 0}
+.card-proj ol{margin:4px 0 10px;padding-left:22px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:10px 0 0;font-size:14px}
+.kv dt{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-3);padding-top:2px}
+.kv dd{margin:0}
 
 /* shifts */
 .shifts{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
@@ -174,6 +208,7 @@ footer p{max-width:90ch}
 
 @media (max-width:900px){
   header.top{grid-template-columns:1fr}
+  .funnel{grid-template-columns:1fr 1fr}
   .country-row{grid-template-columns:repeat(2,1fr)}
   .cbrief{grid-template-columns:1fr}
   .o-body{grid-template-columns:1fr}
@@ -183,6 +218,8 @@ footer p{max-width:90ch}
   details.opp summary{grid-template-columns:1fr}
   .o-meta{justify-content:flex-start}
   .filters{position:static}
+  .funnel{grid-template-columns:1fr}
+  nav.tabs button{padding:10px 10px 9px;font-size:14px}
 }
 @media (prefers-reduced-motion:no-preference){
   details.opp,.cbtn{transition:border-color .15s}
@@ -196,82 +233,169 @@ footer p{max-width:90ch}
   <div>
     <div class="eyebrow">Nuvance Global Health Conference · Southbury, CT · 28–30 Sep 2026</div>
     <h1>Global Health Funding Atlas</h1>
-    <p class="lede">Where clinicians, nurses and faculty in our ten partner countries can find money for research, training and service projects: from ministries and national councils to global foundations. Checked against funder pages in September 2026.</p>
+    <p class="lede">Where clinicians, nurses and faculty in our ten partner countries can find money for research, training and service projects, and how to use AI to apply faster. Checked against funder pages in September 2026.</p>
   </div>
   <div class="stats" id="stats"></div>
 </header>
-<nav class="jump" aria-label="Sections">
-  <a href="#landscape">What changed in 2026</a>
-  <a href="#countries">Country briefs</a>
-  <a href="#deadlines">Next deadlines</a>
-  <a href="#directory">Curated directory</a>
-  <a href="#search">How to search</a>
-  <a href="#deadends">Not direct routes</a>
+
+<nav class="tabs" role="tablist" aria-label="Atlas sections">
+  <button role="tab" type="button" id="t-funnel" data-tab="funnel" aria-controls="funnel"><span class="tn">1</span>Find funding</button>
+  <button role="tab" type="button" id="t-resources" data-tab="resources" aria-controls="resources"><span class="tn">2</span>Links &amp; resources</button>
+  <button role="tab" type="button" id="t-prompt" data-tab="prompt" aria-controls="prompt"><span class="tn">3</span>Prompt 1: search</button>
+  <button role="tab" type="button" id="t-project" data-tab="project" aria-controls="project"><span class="tn">4</span>AI-native project</button>
 </nav>
 
-<section id="landscape">
-  <div class="sec-head"><h2>What changed in 2026</h2><p class="muted small">Read these first. They decide which lists your country is on.</p></div>
-  <div class="shifts" id="shifts"></div>
-</section>
-
-<section id="countries">
-  <div class="sec-head"><h2>Country briefs</h2><p class="muted small">Pick a country to see its eligibility profile and best first moves. The directory below filters to match.</p></div>
-  <div class="country-row" id="countryRow" role="group" aria-label="Choose a country"></div>
-  <div id="cbrief"></div>
-</section>
-
-<section id="deadlines">
-  <div class="sec-head"><h2>Next deadlines</h2><p class="muted small">Dates from 26 Sep to early Dec 2026. Red means within 14 days of the conference.</p></div>
-  <ul class="dl" id="dl"></ul>
-</section>
-
-<section id="directory">
-  <div class="sec-head"><h2>Curated directory</h2><p class="muted small">Grouped from local to global. Open a card for amounts, eligibility, how to apply and sources.</p></div>
-  <div class="filters">
-    <input type="search" id="q" placeholder="Search funder, scheme, topic (e.g. TB, nursing, AI)" aria-label="Search">
-    <select id="fCountry" aria-label="Country"></select>
-    <select id="fCat" aria-label="Funder type"></select>
-    <select id="fStatus" aria-label="Status"></select>
-    <label class="toggle"><input type="checkbox" id="fHigh"> Best fit only</label>
-    <label class="toggle"><input type="checkbox" id="fAI"> AI-related</label>
-    <button class="btn-reset" id="reset" type="button">Reset</button>
-  </div>
-  <div class="count" id="count"></div>
-  <div id="list"></div>
-</section>
-
-<section id="search">
-  <div class="sec-head"><h2>How to search: a six-step routine</h2><p class="muted small">The method behind this atlas, so you can repeat it for your own topic.</p></div>
-  <ol class="steps">
-    <li><h3>Know which lists you are on</h3><p>Check your World Bank income group (reset every 1 July), OECD DAC status, Commonwealth and Horizon Europe association, EDCTP membership and Wellcome's country list. Most eligibility rules are written against these lists.</p></li>
-    <li><h3>Map who already funds health at home</h3><p>Open IATI d-portal or the OECD CRS for your country and filter to health. The funders and implementers you see there are your likeliest partners and sub-grantors.</p></li>
-    <li><h3>Find people funded for similar work</h3><p>Search NIH RePORTER, Dimensions, Wellcome's funded grants and 360Giving GrantNav by topic and country. Funded PIs become mentors, co-applicants and letter writers.</p></li>
-    <li><h3>Subscribe to five feeds, not fifty</h3><p>TDR newsletter, Fogarty funding news, The Global Health Network, one aggregator (fundsforNGOs or Opportunity Desk), and your national council's call page.</p></li>
-    <li><h3>Let AI sweep, then verify every line</h3><p>Run a deep-research prompt (below) to build a long list quickly. Then open each official page: deadlines, amounts and eligible countries are exactly where models make mistakes.</p></li>
-    <li><h3>Track it and register early</h3><p>Keep a tracker with deadline, eligibility check and next action. US federal applications need SAM.gov, NCAGE and eRA Commons registration, which takes weeks. Start now for the 3 Dec K43 deadline.</p></li>
+<!-- ============ TAB 1: FUNNEL ============ -->
+<div class="panel" role="tabpanel" id="funnel" aria-labelledby="t-funnel">
+  <ol class="funnel" aria-label="How to use this page">
+    <li><b>Pick your country</b><span>See which funder lists you are on</span></li>
+    <li><b>Check deadlines</b><span>What closes in the next 10 weeks</span></li>
+    <li><b>Filter the directory</b><span>By type, status, fit and topic</span></li>
+    <li><b>Copy a grant into AI</b><span>“Copy for AI chat” on any card</span></li>
+    <li><b>Add your project</b><span>Paste your <a href="#project" data-goto="project">project profile</a> and check fit</span></li>
   </ol>
-  <div class="prompt">
-    <div class="prompt-head"><span class="eyebrow">Deep-research prompt · copy and adapt</span><button class="copy" id="copyBtn" type="button">Copy prompt</button></div>
-    <pre id="promptText">You are a research-funding scout for a health professional in [COUNTRY].
-Profile: [role, e.g. nurse / clinician / junior faculty], [institution type], [highest degree], [years since degree].
-Project idea: [one sentence: population, problem, what I want to test or build].
-Budget needed: [range]. Timeframe: [months].
+
+  <details class="shifts-box" id="shiftsBox">
+    <summary><span><b>What changed in 2026</b> <span class="muted small">· seven shifts that decide which lists your country is on</span></span><span class="chev" aria-hidden="true">▾</span></summary>
+    <div class="shifts" id="shifts"></div>
+  </details>
+
+  <section id="countries">
+    <div class="sec-head"><h2>Country briefs</h2><p class="muted small">Pick a country to see its eligibility profile and best first moves. The directory below filters to match.</p></div>
+    <div class="country-row" id="countryRow" role="group" aria-label="Choose a country"></div>
+    <div id="cbrief"></div>
+  </section>
+
+  <section id="deadlines">
+    <div class="sec-head"><h2>Next deadlines</h2><p class="muted small">Dates from 26 Sep to early Dec 2026. Red means within 14 days of the conference.</p></div>
+    <ul class="dl" id="dl"></ul>
+  </section>
+
+  <section id="directory">
+    <div class="sec-head"><h2>Curated directory</h2><p class="muted small">Grouped from local to global. Open a card for amounts, eligibility, how to apply and sources, and to copy it into an AI chat.</p></div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search funder, scheme, topic (e.g. TB, nursing, AI)" aria-label="Search">
+      <select id="fCountry" aria-label="Country"></select>
+      <select id="fCat" aria-label="Funder type"></select>
+      <select id="fStatus" aria-label="Status"></select>
+      <label class="toggle"><input type="checkbox" id="fHigh"> Best fit only</label>
+      <label class="toggle"><input type="checkbox" id="fAI"> AI-related</label>
+      <button class="btn-reset" id="reset" type="button">Reset</button>
+    </div>
+    <div class="count" id="count"></div>
+    <div id="list"></div>
+  </section>
+</div>
+
+<!-- ============ TAB 2: RESOURCES ============ -->
+<div class="panel" role="tabpanel" id="resources" aria-labelledby="t-resources" hidden>
+  <section class="first">
+    <div class="sec-head"><h2>Everything in the repository</h2><p class="muted small">The same data as this page, as files you can download or hand to an AI. Free to copy (CC0).</p></div>
+    <div class="tbl-wrap"><table class="files"><thead><tr><th>File</th><th>What is inside</th><th>Use it for</th></tr></thead><tbody id="repoFiles"></tbody></table></div>
+  </section>
+
+  <section id="search">
+    <div class="sec-head"><h2>How to search: a six-step routine</h2><p class="muted small">The method behind this atlas, so you can repeat it for your own topic.</p></div>
+    <ol class="steps">
+      <li><h3>Know which lists you are on</h3><p>Check your World Bank income group (reset every 1 July), OECD DAC status, Commonwealth and Horizon Europe association, EDCTP membership and Wellcome's country list. Most eligibility rules are written against these lists.</p></li>
+      <li><h3>Map who already funds health at home</h3><p>Open IATI d-portal or the OECD CRS for your country and filter to health. The funders and implementers you see there are your likeliest partners and sub-grantors.</p></li>
+      <li><h3>Find people funded for similar work</h3><p>Search NIH RePORTER, Dimensions, Wellcome's funded grants and 360Giving GrantNav by topic and country. Funded PIs become mentors, co-applicants and letter writers.</p></li>
+      <li><h3>Subscribe to five feeds, not fifty</h3><p>TDR newsletter, Fogarty funding news, The Global Health Network, one aggregator (fundsforNGOs or Opportunity Desk), and your national council's call page.</p></li>
+      <li><h3>Let AI sweep, then verify every line</h3><p>Run <a href="#prompt" data-goto="prompt">Prompt 1</a> to build a long list quickly. Then open each official page: deadlines, amounts and eligible countries are exactly where models make mistakes.</p></li>
+      <li><h3>Track it and register early</h3><p>Keep a tracker with deadline, eligibility check and next action. US federal applications need SAM.gov, NCAGE and eRA Commons registration, which takes weeks. Start now for the 3 Dec K43 deadline.</p></li>
+    </ol>
+  </section>
+
+  <section id="tools-sec">
+    <div class="sec-head"><h2>Search tools and databases</h2><p class="muted small">Where to look for new calls, and who already got funded.</p></div>
+    <div class="tbl-wrap"><table id="tools"><thead><tr><th>Tool</th><th>Type</th><th>Cost</th><th>Best for</th><th>Tip</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="deadends">
+    <div class="sec-head"><h2>Not direct routes</h2><p class="muted small">Large or famous funders that individual researchers cannot apply to, closed programmes and non-funders. Knowing these saves time.</p></div>
+    <div class="ctx" id="ctx"></div>
+  </section>
+</div>
+
+<!-- ============ TAB 3: PROMPT 1 ============ -->
+<div class="panel" role="tabpanel" id="prompt" aria-labelledby="t-prompt" hidden>
+  <section class="first">
+    <div class="sec-head"><h2>Prompt 1: find funding for your project</h2><p class="muted small">The AI starts from this atlas instead of a blank search, then checks every line on the funder's own page.</p></div>
+    <div class="how">
+      <ol class="steps compact">
+        <li><h3>Pick your country</h3><p>The prompt fills in your country and the right file in the repository.</p></li>
+        <li><h3>Fill the [brackets]</h3><p>Or delete them and paste your <a href="#project" data-goto="project">project profile</a> at the end.</p></li>
+        <li><h3>Paste into an AI with web access</h3><p>ChatGPT or Gemini with Deep Research, Claude with web search, or Perplexity. It must be able to open links.</p></li>
+        <li><h3>Verify before you trust</h3><p>Open every official page it returns. Treat “not verified” as a to-do, not an answer.</p></li>
+      </ol>
+    </div>
+    <div class="prompt">
+      <div class="prompt-head">
+        <label class="small">Country <select id="pCountry" aria-label="Country for the prompt"></select></label>
+        <button class="copy" id="copyBtn" type="button">Copy prompt</button>
+      </div>
+      <pre id="promptText">You are a research-funding scout for a health professional in [COUNTRY].
+
+Start from this public, fact-checked list of funding opportunities (checked September 2026):
+https://github.com/danissimov/global-health-funding-opportunities
+
+Where to look, in this order:
+1. countries/[country-file].md: which funder lists my country is on, the best first moves, upcoming deadlines and every opportunity open to my country. Start here.
+2. data/funding_opportunities.csv: one row per opportunity with amount, eligibility, deadline, status, how to apply and the official URL. Use it to check details.
+3. docs/how-to-search.md: search tools and grant databases, for when the list has nothing that fits.
+If you cannot open GitHub pages, use the raw file: https://raw.githubusercontent.com/danissimov/global-health-funding-opportunities/main/countries/[country-file].md
+
+About me and my project:
+- Role: [nurse / clinician / junior faculty] at [institution type], [highest degree], [years since degree]
+- Project: [one sentence: population, problem, what I want to test or build]
+- Budget needed: [range]. Timeframe: [months].
 
 Task:
-1. Find every currently open or expected funding opportunity (grants, fellowships, small grants, in-kind training, compute credits) that I could lead or join as a named investigator.
-2. Cover: my national government and councils, regional bodies, WHO/TDR and other multilaterals, foreign government funders, foundations, professional societies, and corporate programmes.
-3. For each: official URL, amount, duration, eligibility (country list, degree, whether a high-income partner is required), next deadline, and whether my country's current World Bank income group qualifies.
+1. From the list, shortlist up to 10 opportunities I could lead or join as a named investigator.
+2. Open each official page and confirm the status, next deadline, amount, and whether my country qualifies (World Bank income group and the funder's own country list).
+3. Then search beyond the list: my national government and research councils, regional bodies, WHO/TDR and other multilaterals, foreign government funders, foundations, professional societies, and corporate and AI programmes. Add anything new and say where you found it.
 4. Flag anything invitation-only, paused, or where eligibility changed in the last 12 months.
-5. Return a table sorted by deadline, then list the three best fits and why.
-Only cite official funder pages or reputable trackers. If you cannot verify a deadline or amount, write "not verified" instead of guessing.</pre>
-  </div>
-  <div class="tbl-wrap"><table id="tools"><thead><tr><th>Tool</th><th>Type</th><th>Cost</th><th>Best for</th><th>Tip</th></tr></thead><tbody></tbody></table></div>
-</section>
+5. Return a table sorted by deadline (name, funder, amount, deadline, eligibility check, official URL). Then give the three best fits, why, and what I should do this week.
 
-<section id="deadends">
-  <div class="sec-head"><h2>Not direct routes</h2><p class="muted small">Large or famous funders that individual researchers cannot apply to, closed programmes and non-funders. Knowing these saves time.</p></div>
-  <div class="ctx" id="ctx"></div>
-</section>
+Only cite official funder pages or reputable trackers. If you cannot verify a deadline or amount, write "not verified" instead of guessing.</pre>
+    </div>
+    <p class="small muted" style="margin-top:12px">Next step: open any opportunity in <a href="#funnel" data-goto="funnel">Find funding</a> and press <b>Copy for AI chat</b>. It copies the full call and a checklist task, ready for your project description. More prompts from the talk: <a href="https://github.com/danissimov/global-health-funding-opportunities/blob/main/docs/prompts.md" target="_blank" rel="noopener">docs/prompts.md</a>.</p>
+  </section>
+</div>
+
+<!-- ============ TAB 4: AI-NATIVE PROJECT ============ -->
+<div class="panel" role="tabpanel" id="project" aria-labelledby="t-project" hidden>
+  <section class="first">
+    <div class="sec-head"><h2>An AI-native project description</h2><p class="muted small">Write your project down once, in plain text with facts and numbers. Paste it into every grant chat instead of retyping it.</p></div>
+    <div class="principles">
+      <div><b>Facts, not prose</b><p>Headcount, equipment, sample volumes, costs, dates. Funders and AI both score on numbers.</p></div>
+      <div><b>One file, many grants</b><p>The same profile answers eligibility, budget, capacity and sustainability questions for every call.</p></div>
+      <div><b>Say what you do not have</b><p>Gaps (power, freezers, a statistician) are where partners and budget lines come from.</p></div>
+      <div><b>No patient data</b><p>Aggregate numbers only. Nothing that identifies a person.</p></div>
+    </div>
+  </section>
+  <section>
+    <div class="sec-head"><h2>Example: StripSeq, northern Uganda</h2><p class="muted small">Fictional lab, written for the Gates Foundation call on low-cost pathogen sequencing. This is the short version that fits on one slide.</p></div>
+    <div class="card-proj">
+      <div class="eyebrow">Example (fictional) · West Nile Regional Laboratory, Arua, Uganda</div>
+      <p>One idle Nanopore sequencer, 4 technicians, unreliable power. TB drug-resistance results take 2–3 weeks from Kampala.</p>
+      <p><b>Problem.</b> 40,000 malaria rapid tests are thrown away every month. Nobody tracks artemisinin resistance or <i>hrp2/3</i> deletions (which cause false-negative tests), because sequencing costs about $80 per sample.</p>
+      <p><b>Project: “StripSeq”</b></p>
+      <ol>
+        <li>Used rapid-test strip → envelope, no cold chain</li>
+        <li>One tube of freeze-dried reagents, no extraction, 30 min hands-on</li>
+        <li>Existing sequencer → one-page resistance report</li>
+        <li>Same workflow, swap in a TB panel in year 2 (results in under 48 h)</li>
+      </ol>
+      <dl class="kv">
+        <dt>Cost</dt><dd>$78 → about $6 per sample</dd>
+        <dt>Ask</dt><dd>Tier 1, $300k, 24 months</dd>
+        <dt>Partners</dt><dd>National malaria programme, local university, Africa Pathogen Genomics Initiative</dd>
+        <dt>Month 12</dt><dd>500 strips, ≥95% agreement with the gold standard</dd>
+      </dl>
+    </div>
+  </section>
+</div>
 
 <footer>
   <p><b>Method.</b> Five research streams (national, multilateral and regional, foreign government, foundations and corporate, fellowships and search tools) collected candidates, then each entry was checked on the funder's own page or a reputable tracker in September 2026. Income groups follow the World Bank FY2027 classification; Wellcome country rules follow its published list for rounds opening 29 Oct 2026; US agreement status follows the KFF tracker (data as of 11 Sep 2026).</p>
@@ -505,9 +629,60 @@ function grantBrief(r){
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-copy]'); if(!b) return; e.preventDefault(); const r=byId[b.dataset.copy]; if(r) copyText(grantBrief(r), b);});
 
+// prompt 1: country picker fills [COUNTRY] and [country-file]
+const PROMPT_TPL = $('#promptText').textContent;
+const slugOf = c=>c.toLowerCase().replace(/ /g,'-');
+fillSelect($('#pCountry'),'Choose…',COUNTRIES.map(c=>c.k));
+function renderPrompt(){
+  const c=$('#pCountry').value;
+  $('#promptText').textContent = c ? PROMPT_TPL.split('[COUNTRY]').join(c).split('[country-file]').join(slugOf(c)) : PROMPT_TPL;
+}
+$('#pCountry').addEventListener('change',renderPrompt);
 $('#copyBtn').addEventListener('click',()=>copyText($('#promptText').textContent, $('#copyBtn')));
 
-syncControls(); renderAll();
+// repository files table
+const BLOB = REPO_URL+'/blob/main/';
+const REPO_FILES = [
+  ['README.md','The whole list on one page, grouped from local to global, with deadlines and search tools.','Reading and printing'],
+  ['countries/','One page per country: funder lists, best first moves, deadlines, every eligible opportunity.','The best link to give an AI (see Prompt 1)', COUNTRIES.map(c=>`<a href="${BLOB}countries/${slugOf(c.k)}.md" target="_blank" rel="noopener">${esc(c.k)}</a>`).join(' · ')],
+  ['data/funding_opportunities.csv','One row per opportunity: amount, eligibility, deadline, status, how to apply, official URL.','Spreadsheets, filtering, AI analysis'],
+  ['data/funding_opportunities.json','Full records, including the sources used to check each one.','Code and AI tools'],
+  ['docs/prompts.md','The prompts from the talk, one for each research stage.','Copy, fill the brackets, paste'],
+  ['docs/how-to-search.md','The six-step search routine, the deep-research prompt and all search tools.','Finding calls this list misses'],
+  ['docs/deadlines.svg','Timeline of upcoming deadlines (one per country in docs/).','Slides and posters'],
+  ['contributing.md','How to add a grant or report one that closed. No GitHub skills needed.','Keeping the list alive']
+];
+function renderRepoFiles(){
+  $('#repoFiles').innerHTML = REPO_FILES.map(([f,what,use,extra])=>`<tr><td><a href="${f.endsWith('/')?REPO_URL+'/tree/main/'+f:BLOB+f}" target="_blank" rel="noopener"><code>${esc(f)}</code></a></td><td>${esc(what)}${extra?`<div class="small" style="margin-top:4px">${extra}</div>`:''}</td><td class="muted">${esc(use)}</td></tr>`).join('');
+}
+renderRepoFiles();
+
+// tabs
+const TABBTNS=[...document.querySelectorAll('nav.tabs [data-tab]')];
+const TABS=TABBTNS.map(b=>b.dataset.tab);
+const LEGACY={countries:'funnel',deadlines:'funnel',directory:'funnel',landscape:'funnel',search:'resources',deadends:'resources'};
+function showTab(id, opts={}){
+  if(!TABS.includes(id)) id='funnel';
+  TABBTNS.forEach(b=>{const on=b.dataset.tab===id; b.setAttribute('aria-selected',on); b.tabIndex=on?0:-1;});
+  document.querySelectorAll('.panel').forEach(p=>p.hidden=p.id!==id);
+  if(opts.hash!==false && location.hash.slice(1)!==id) history.replaceState(null,'','#'+id);
+  if(id==='prompt' && !$('#pCountry').value && state.country){ $('#pCountry').value=state.country; renderPrompt(); }
+  if(opts.scroll){ const nav=$('nav.tabs'); if(window.scrollY>nav.offsetTop) nav.scrollIntoView({block:'start'}); }
+}
+TABBTNS.forEach((b,i)=>{
+  b.addEventListener('click',()=>showTab(b.dataset.tab,{scroll:true}));
+  b.addEventListener('keydown',e=>{const k={ArrowRight:1,ArrowLeft:-1}[e.key]; if(!k) return; e.preventDefault(); const n=TABBTNS[(i+k+TABBTNS.length)%TABBTNS.length]; n.focus(); showTab(n.dataset.tab);});
+});
+document.addEventListener('click',e=>{const a=e.target.closest('[data-goto]'); if(!a) return; e.preventDefault(); showTab(a.dataset.goto,{scroll:true});});
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(h.startsWith('opp-')){ showTab('funnel',{hash:false}); const d=document.getElementById(h); if(d){d.open=true; setTimeout(()=>d.scrollIntoView({block:'center'}),50);} return; }
+  if(LEGACY[h]){ showTab(LEGACY[h],{hash:false}); const el=document.getElementById(h); if(el) setTimeout(()=>el.scrollIntoView({block:'start'}),50); return; }
+  showTab(h||'funnel',{hash:!!h});
+}
+window.addEventListener('hashchange',route);
+
+syncControls(); renderAll(); route();
 </script>
 
 </body>

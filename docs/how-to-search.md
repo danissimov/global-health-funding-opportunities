@@ -39,16 +39,28 @@ A deep-research mode (ChatGPT, Claude, Gemini or Perplexity) can build a long li
 
 ```text
 You are a research-funding scout for a health professional in [COUNTRY].
-Profile: [role, e.g. nurse / clinician / junior faculty], [institution type], [highest degree], [years since degree].
-Project idea: [one sentence: population, problem, what I want to test or build].
-Budget needed: [range]. Timeframe: [months].
+
+Start from this public, fact-checked list of funding opportunities (checked September 2026):
+https://github.com/danissimov/global-health-funding-opportunities
+
+Where to look, in this order:
+1. countries/[country-file].md: which funder lists my country is on, the best first moves, upcoming deadlines and every opportunity open to my country. Start here.
+2. data/funding_opportunities.csv: one row per opportunity with amount, eligibility, deadline, status, how to apply and the official URL. Use it to check details.
+3. docs/how-to-search.md: search tools and grant databases, for when the list has nothing that fits.
+If you cannot open GitHub pages, use the raw file: https://raw.githubusercontent.com/danissimov/global-health-funding-opportunities/main/countries/[country-file].md
+
+About me and my project:
+- Role: [nurse / clinician / junior faculty] at [institution type], [highest degree], [years since degree]
+- Project: [one sentence: population, problem, what I want to test or build]
+- Budget needed: [range]. Timeframe: [months].
 
 Task:
-1. Find every currently open or expected funding opportunity (grants, fellowships, small grants, in-kind training, compute credits) that I could lead or join as a named investigator.
-2. Cover: my national government and councils, regional bodies, WHO/TDR and other multilaterals, foreign government funders, foundations, professional societies, and corporate programmes.
-3. For each: official URL, amount, duration, eligibility (country list, degree, whether a high-income partner is required), next deadline, and whether my country's current World Bank income group qualifies.
+1. From the list, shortlist up to 10 opportunities I could lead or join as a named investigator.
+2. Open each official page and confirm the status, next deadline, amount, and whether my country qualifies (World Bank income group and the funder's own country list).
+3. Then search beyond the list: my national government and research councils, regional bodies, WHO/TDR and other multilaterals, foreign government funders, foundations, professional societies, and corporate and AI programmes. Add anything new and say where you found it.
 4. Flag anything invitation-only, paused, or where eligibility changed in the last 12 months.
-5. Return a table sorted by deadline, then list the three best fits and why.
+5. Return a table sorted by deadline (name, funder, amount, deadline, eligibility check, official URL). Then give the three best fits, why, and what I should do this week.
+
 Only cite official funder pages or reputable trackers. If you cannot verify a deadline or amount, write "not verified" instead of guessing.
 ```
 
