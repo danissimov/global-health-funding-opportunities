@@ -53,6 +53,7 @@ About me and my project:
 - Role: [nurse / clinician / junior faculty] at [institution type], [highest degree], [years since degree]
 - Project: [one sentence: population, problem, what I want to test or build]
 - Budget needed: [range]. Timeframe: [months].
+(Or delete these three lines and paste my project profile at the end. Its format is examples/project-profile-template.md in the same repository.)
 
 Task:
 1. From the list, shortlist up to 10 opportunities I could lead or join as a named investigator.

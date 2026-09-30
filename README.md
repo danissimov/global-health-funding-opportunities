@@ -67,6 +67,8 @@ The full guide, with a copy-and-paste AI prompt, is in [the search guide](docs/h
 
 The prompts from the talk, one for each research stage, are in [the prompt sheet](docs/prompts.md).
 
+**Preparing applications faster.** Write your facility and project down once, as plain facts and numbers, and paste that file into every grant chat. Use [the project profile template](examples/project-profile-template.md); [a filled example](examples/west-nile-lab-stripseq.md) shows a fictional lab in Uganda.
+
 ## What changed in 2026
 
 Read these first. They decide which lists your country is on.
