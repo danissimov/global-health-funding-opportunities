@@ -24,7 +24,7 @@
 | Opportunities in the data | 250 |
 | Shown in the list (good or best fit) | 204 |
 | Rated best fit | 60 |
-| Open now or open all year | 96 |
+| Open now or open all year | 95 |
 | Status not confirmed | 47 |
 | Not direct routes (listed separately) | 30 |
 | Search tools | 34 |
