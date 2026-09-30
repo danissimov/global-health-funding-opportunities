@@ -71,6 +71,14 @@ The prompts from the talk, one for each research stage, are in [the prompt sheet
 
 **Preparing applications faster.** Write your facility and project down once, as plain facts and numbers, and paste that file into every grant chat. Use [the project profile template](examples/project-profile-template.md); [a filled example](examples/west-nile-lab-stripseq.md) shows a fictional lab in Uganda.
 
+**Example projects from the 2026 conference** (built on posters and a clinical case; everything after the published results is illustrative):
+
+- [AMAI-2: AI-assisted WhatsApp follow-up for postpartum pelvic and mental health, Zimbabwe](examples/amai-2-project-description.md): a funder-neutral project description, plus [its funding plan](examples/amai-2-funding-plan.md)
+- [UnFold-Home: caregiver-led visual learning for autism, Uganda](examples/unfold-home-autism-uganda.md)
+- [Bridge: WhatsApp mentorship for early-career allied health professionals, Zimbabwe, Uganda, Botswana](examples/bridge-mentorship-allied-health.md)
+- [Boda-to-Theatre: road-traffic abdominal trauma registry, Kampala](examples/boda-to-theatre-trauma-kampala.md)
+- Prompts: [draft an application from a project description and a call](examples/prompt-draft-application.md) · [turn the draft into a feedback email](examples/prompt-feedback-email.md)
+
 ## What changed in 2026
 
 Read these first. They decide which lists your country is on.
