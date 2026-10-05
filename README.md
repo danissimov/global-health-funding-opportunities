@@ -77,6 +77,7 @@ The prompts from the talk, one for each research stage, are in [the prompt sheet
 - [UnFold-Home: caregiver-led visual learning for autism, Uganda](examples/unfold-home-autism-uganda.md)
 - [Bridge: WhatsApp mentorship for early-career allied health professionals, Zimbabwe, Uganda, Botswana](examples/bridge-mentorship-allied-health.md)
 - [Boda-to-Theatre: road-traffic abdominal trauma registry, Kampala](examples/boda-to-theatre-trauma-kampala.md)
+- [OneTube-TB: extraction-free targeted sequencing for drug-resistant TB, India](examples/onetube-tb-india-sequencing.md): a fictional, competitive concept for the Gates low-cost pathogen sequencing call
 - Prompts: [draft an application from a project description and a call](examples/prompt-draft-application.md) · [turn the draft into a feedback email](examples/prompt-feedback-email.md)
 
 ## What changed in 2026
